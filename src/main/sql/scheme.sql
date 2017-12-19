@@ -5,6 +5,7 @@ CREATE DATABASE seckill;
 USE seckill;
 -- 创建秒杀库存表
 CREATE TABLE seckill(
+
   `seckill_id` BIGINT NOT NULL AUTO_INCREMENT COMMENT '商品库存ID',
   `name` VARCHAR(120) NOT NULL COMMENT '商品名称',
   `number` INT NOT NULL COMMENT '库存数量',
